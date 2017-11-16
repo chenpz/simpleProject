@@ -13,3 +13,6 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+/* eslint-disable no-undef */
+axios.defaults.withCredentials = true
